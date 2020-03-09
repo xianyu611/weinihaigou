@@ -1,24 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss"
+import { Button } from 'antd';
+import {Route,Link,Redirect,Switch} from "react-router-dom"
+import {routes} from "./router"
+import {homeChild} from "./router"
+import Nav from "./components/navigation/appNav"
+import HomeChild from "./components/home/navComRouter/hotSale"
+import Test from "./test"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Test></Test>
+      <Nav></Nav>
+    <Switch>
+      {
+       
+        routes.map((item,index)=>{
+          // console.log(item)
+          return (
+            <Route key={index} path={item.path} component={item.component}></Route>
+          )
+        })
+
+        
+      }
+     
+      <Redirect from="/" to="/home" exact></Redirect>
+    </Switch>
+    
     </div>
   );
 }

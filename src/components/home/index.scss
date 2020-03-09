@@ -1,0 +1,105 @@
+.banner {
+    position: relative;
+    height: 214px;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 14.0625px;
+
+    .wrapper-home {
+        height: 175px;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .bannerInput {
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        top: .22rem;
+        box-sizing: border-box;
+        padding: 0 7px;
+
+        // padding: 0 .5rem;
+        div {
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 0 7px;
+            width: 6.2rem;
+            height: 33px;
+            padding-left: 40px;
+            background-color: #fff;
+            border-radius: 100px;
+            color: #ccc;
+            line-height: 33px;
+
+            a {
+                position: absolute;
+                left: 10px;
+                top: 2px;
+            }
+        }
+
+        span {
+            display: inline-block;
+            width: .667rem;
+            height: .458rem;
+            margin-left: 5px;
+        }
+    }
+
+    .my-active {
+        color: #f40;
+        opacity: 1;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+
+    span {
+        width: 25%;
+        height: 1.5rem;
+        text-align: center;
+        color: #999;
+        font-size: 14px;
+        text-align: center;
+        img {
+            display: block;
+            margin: 0  21px;
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+.com-end{
+    font-size: .3rem;
+    color: #c4c4c4;
+    text-align: center;
+    line-height: .9rem;
+}
+
+.ScrollTop{
+    position: fixed;
+    z-index: 30;
+    font-size: 12px;
+    right: 15px;
+    bottom: 100px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #b9b9b9;
+}

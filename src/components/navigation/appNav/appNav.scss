@@ -1,0 +1,37 @@
+$none:none;
+
+.footer {
+    // font-size: .4rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ebebeb;
+    z-index: 999;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        // height: 3.5rem;
+        li {
+            list-style: $none;
+
+            a {
+                text-decoration: none;
+                color:#a9a9a9;
+                display: block;
+                width: 100%;
+                padding-top: 5px;
+                font-size: 14px;
+                text-align: center;
+            }
+            .active{
+                color: #f05b1a
+            }
+        }
+    }
+}
+

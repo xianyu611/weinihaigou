@@ -1,0 +1,250 @@
+.cart-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 28px;
+    padding: 10px 0;
+    box-sizing: content-box;
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 14px;
+
+    .deit {
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        color: #131313;
+    }
+
+    .titles {
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+        // color: #9f2e33;
+        // font-weight: 700;
+        // height: 52px;
+        height: 100%;
+        line-height: 28px;
+        color: #000;
+        font-weight: 400;
+    }
+}
+
+
+.account {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #e9ebf1;
+    background: #fff;
+    font-size: 15px;
+
+    .makes-box {
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        height: 100%;
+        padding: 7px 8px 0 18px;
+
+        // background-color: red;
+        .all-choose-box {
+            float: left;
+
+            input {
+                position: absolute;
+                z-index: -1;
+                border: none
+            }
+
+
+
+
+        }
+
+        .all-money {
+            width: 150px;
+            height: 100%;
+            font-size: 14px;
+            text-align: right;
+            // background-color: red;
+        }
+    }
+
+    .makes-btn {
+        float: right;
+        width: 33%;
+        background: #9f2e33;
+        color: #fff;
+        text-align: center;
+        line-height: 70px;
+        font-size: 18px;
+    }
+
+    .money-tips {
+        color: #c3c3c3;
+        font-size: 12px;
+    }
+}
+
+.shop-box {
+    margin-top: 48px;
+    margin-bottom: 12px;
+    // background: #fff;
+    border-top: 1px solid #ebebeb;
+
+    .goods-item {
+        border-bottom: 1px solid #ebebeb;
+        position: relative;
+
+        .goods-show {
+            display: flex;
+            align-items: center;
+            height: 120px;
+            padding: 0 18px;
+            overflow: hidden;
+
+            .goods-img {
+                position: relative;
+                margin: 0 6px;
+                width: 60px;
+                height: 70px;
+                overflow: hidden;
+                background-color: red;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .goods-link {
+                width: 100px;
+                margin: 0 14px 0 5px;
+                overflow: hidden;
+
+                .p1 {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    word-break: break-all;
+                    color: #4c4c4c;
+                    font-size: 14px;
+                }
+
+                .p2 {
+                    margin-top: 5px;
+                    color: #999;
+                    font-size: 12px;
+                }
+
+                .p4 {
+                    font-size: 16px;
+                    color: #f34f34;
+                }
+            }
+        }
+    }
+
+    .no-shop {
+        width: 150px;
+        margin: 25% auto;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+
+        div {
+            margin: 17px auto;
+            width: 100px;
+            line-height: 30px;
+            border: 1px solid #9f2e33;
+            color: #9f2e33;
+            text-align: center;
+            border-radius: 3px;
+            font-size: 15px;
+        }
+    }
+}
+
+.q {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    border: 1.5px solid #000;
+    border-radius: 50%;
+}
+
+
+.quantity-selector {
+    float: right;
+    width: 125px;
+    line-height: 36px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+
+    .reduce {
+        float: left;
+        width: 25%;
+        border-right: 1px solid #757575;
+        text-align: center;
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .disable {
+        color: #d2d2d2;
+    }
+
+    input {
+        float: left;
+        width: 50%;
+        height: 21px;
+        padding: 7px 0;
+        line-height: 21px;
+        border: none;
+        text-align: center;
+        font-size: 15px;
+        outline: 0;
+        // border: 1px solid #ccc;
+    }
+
+    .add {
+        border-left: 1px solid #757575;
+        border-right: none;
+        float: left;
+        width: 20%;
+        // border-right: 1px solid #757575;
+        text-align: center;
+        font-size: 18px;
+        line-height: 35px;
+    }
+}
+
+.del{
+    display: block;
+    width: 56px;
+    text-align: right;
+    float: right;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    font-size: 15px;
+}
+.delete{
+    display: inline-block;
+    padding-top: 20px;
+    width: 42px;
+    height: 20px;
+    text-align: center;
+    color: #000;
+}

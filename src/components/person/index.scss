@@ -1,0 +1,87 @@
+.login-header {
+    position: relative;
+    width: 100%;
+    height: 145px;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.login-main {
+    padding: 18px;
+    font-size: 20px;
+    .phone-pwd {
+        border: 1px solid #b5b5b5;
+        padding: 15px;
+        background-color: #fff;
+        // background-color: red;
+
+        .phone {
+            height: 34px;
+            border-bottom: 1px solid #eee;
+            padding-left: 25px;
+            position: relative;
+            input {
+                width: 100%;
+                height: 28px;
+                border: none;
+                outline: 0;
+            }
+        }
+
+        .pwd {
+            height: 28px;
+            padding-left: 25px;
+            padding-top: 10px;
+            border-bottom: none;
+            box-sizing: content-box;
+            position: relative;
+            input {
+                width: 100%;
+                height: 28px;
+                border: none;
+                outline: 0;
+            }
+        }
+    }
+}
+
+.com-next{
+    display: block;
+    margin-top: 30px;
+    line-height: 50px;
+    background-color: #9f2e33;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #fff;
+}
+.p{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #000;
+}
+
+.other-login{
+    margin-top: 60px;
+    img{
+        width: 100%;
+    }
+    .login-mian{
+        // display: flex;
+        margin-top: 22px;
+        // background-color: red;
+        li{
+            list-style: none;
+            width: 50px;
+            height: 50px;
+            margin: 0 auto;
+            background: url('http://www.weinihaigou.com/m-images/icon1.png') no-repeat 0.75px 0.75px;
+        }
+    }
+}

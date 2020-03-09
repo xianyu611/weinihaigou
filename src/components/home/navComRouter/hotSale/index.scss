@@ -1,0 +1,32 @@
+.hotSale {
+    padding-top: 50px;
+    .header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 99;
+        width: 100%;
+        height: 28px;
+        padding: 10px 0;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        background-color: #fff;
+        border-bottom: 1px solid #ebebeb;
+
+        h1 {
+            margin: auto;
+            font-size: 20px;
+            text-align: center;
+            height: 100%;
+            line-height: 28px;
+            color: #000;
+            font-weight: 400;
+        }
+
+        .span {
+            position: absolute;
+            left: 10px;
+            top: 8px
+        }
+    }
+}

@@ -1,0 +1,165 @@
+.com-top {
+    position: relative;
+    line-height: 57px;
+    background: linear-gradient(#1c1b21, #3b3537);
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+
+    .span {
+        font-size: 20px;
+        position: absolute;
+        left: 5px;
+        top: 1%;
+    }
+}
+
+.register {
+    padding: 18px;
+
+    .phone-pwd {
+        border: 1px solid #b5b5b5;
+        padding: 15px;
+        background-color: #fff;
+
+        .phone {
+            position: relative;
+            height: 40px;
+            border-bottom: 1px solid #eee;
+            padding-left: 26px;
+
+            input {
+                width: 100%;
+                height: 28px;
+                border: none;
+                font-size: 15px;
+                outline: 0;
+            }
+        }
+
+        .pwd {
+            position: relative;
+            height: 25px;
+            padding-left: 26px;
+            padding-top: 11px;
+            border-bottom: none;
+
+            input {
+                width: 70%;
+                height: 28px;
+                border: none;
+                font-size: 15px;
+                outline: 0;
+            }
+
+            .show-pwd {
+                float: right;
+                font-size: 14px;
+                color: #535353;
+                padding: 5px 10px;
+                background: #dddcdc;
+                border-radius: 3px;
+            }
+        }
+    }
+
+    .verification {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        height: 50px;
+
+        input {
+            width: 55%;
+            padding: 0 15px;
+            border: 1px solid #b5b5b5;
+            border-radius: 0;
+            font-size: 14px;
+            outline: 0;
+        }
+
+        span {
+            width: 100px;
+            background-color: #363539;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 3px;
+        }
+
+        .noclick {
+            background: #b1b1b1;
+            color: #fff;
+            cursor: not-allowed;
+            font-size: 12px;
+        }
+
+    }
+
+    .tips {
+        margin-top: 10px;
+        font-size: 12px;
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+    .com-next {
+        display: block;
+        margin-top: 30px;
+        line-height: 52px;
+        background-color: #9f2e33;
+        text-align: center;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        font-size: 18px;
+        color: #fff
+    }
+
+    .demo1 {
+        display: none;
+    }
+
+    .demo {
+        display: block;
+        position: absolute;
+        top: 47%;
+        left: 15%;
+        width: 70%;
+        height: 45px;
+        background: #000;
+        border-radius: 5px;
+        color: #fff;
+        opacity: .9;
+        animation: fadenum 3s ease;
+        animation-fill-mode: forwards;
+        font-size: 14px;
+        text-align: center;
+        line-height: 45px;
+
+    }
+
+    @keyframes fadenum {
+
+        /*设置内容由显示变为隐藏*/
+        0% {
+            opacity: .9;
+        }
+
+        100% {
+            opacity: 0;
+        }
+
+    }
+
+    .has-account {
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 15px;
+        color: #9f2e33;
+    }
+
+}

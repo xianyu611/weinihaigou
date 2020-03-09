@@ -1,0 +1,108 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 30px;
+    padding: 10px 0;
+    box-sizing: content-box;
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+
+    h1 {
+        margin: auto;
+        font-size: 14px;
+        text-align: center;
+        color: #9f2e33;
+        font-weight: 700;
+        height: 100%;
+        line-height: 28px;
+        color: #000;
+        font-weight: 400;
+
+        img {
+            width: 84px;
+            vertical-align: middle;
+        }
+    }
+}
+
+.main {
+    height: 100%;
+    padding-top: 50px;
+    overflow-y: hidden;
+    background: #fff;
+
+    .main-tab {
+        position: fixed;
+        float: left;
+        padding-top: 20px;
+        width: 25%;
+        height: 100%;
+        overflow: auto;
+        border-right: 1px solid #ebebeb;
+
+        .tab-item {
+            margin-bottom: 17px;
+            line-height: 24px;
+            border-left: 4px solid #fff;
+            text-align: center;
+            font-size: 15px;
+        }
+        .active{
+            border-left: 4px solid #aa4f53;
+            color: #aa4f53;
+        }
+    }
+
+    .main-con {
+        float: right;
+        width: 74%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        .con-slide {
+            padding: 19px 8px;
+
+            .con-items {
+                margin-top: 11px;
+                overflow: hidden;
+
+                h2 {
+                    font-size: 20px;
+                    margin-bottom: 7px;
+                    font-weight: 400;
+                }
+
+               ul{
+                   margin-left: 4px;
+                li {
+                    float: left;
+                    margin-bottom: 7px;
+                    width: 33.33%;
+                    list-style: none;
+
+                    span {
+                        display: block;
+                        height: 98px;
+                        text-align: center;
+                        color: #4d4d4d;
+                        font-size: 14px;
+                        overflow: hidden;
+
+                        img {
+                            display: block;
+                            margin: 0 auto 4px;
+                            width: 100%;
+                            height: 75%;
+                        }
+                    }
+                }
+               }
+            }
+        }
+    }
+}

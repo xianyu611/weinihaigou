@@ -1,0 +1,90 @@
+.global-selection {
+    padding-top: 10px;
+    margin-top: 20px;
+    background-color: #f8f9fc;
+    overflow: hidden;
+    h2 {
+        height: 50px;
+        border-bottom: 1px solid #ebebeb;
+        background: #fff url(http://www.weinihaigou.com/m-images/icon4.png) no-repeat 1.5rem -5.29rem/7rem 12.8rem;
+    }
+
+    ul {
+        li {
+            margin-left: -1px;
+            border-right: 1px solid #ebebeb;
+            position: relative;
+            float: left;
+            width: 50%;
+            height: 277px;
+            border-bottom: 1px solid #ebebeb;
+            box-sizing: content-box;
+            list-style: none;
+           
+
+            .div {
+                display: block;
+                height: 100%;
+                overflow: hidden;
+                background-color: #fff;
+
+                .img {
+                    position: relative;
+                    width: 154px;
+                    height: 154px;
+                    margin: 11px auto;
+                    img{width: 100%;height: 100%;}
+                }
+
+                .p {
+                    // margin-bottom: 7px;
+                    height: 18px;
+                    color: #808080;
+                    padding: 10px;
+                    font-size: 12px;
+                }
+
+                .goods-der {
+                    height: 30px;
+                    line-height: 15px;
+                    padding: 0 10px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    color: #4d4d4d;
+                    font-size: 13px;
+                }
+
+                .goods-price {
+                    margin-top: 5px;
+                    padding: 0 10px;
+                    font-size: 16px;
+                    span{
+                        color: red;
+                    }
+                    del{
+                        color:#b6bbc1
+                    }
+                }
+            }
+        }
+    }
+
+    .no_goods{
+        position: absolute;
+    z-index: 1;
+    left: 1.2rem;
+    top: 1.8rem;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    opacity: .8;
+    font-size: 12px;;
+    }
+}
